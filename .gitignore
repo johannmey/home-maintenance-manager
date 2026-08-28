@@ -1,1 +1,29 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+
+# IDEs and editors
 .idea/
+
+# Test and tool output
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
